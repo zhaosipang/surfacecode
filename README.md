@@ -25,5 +25,4 @@ for nameId =1:length(namelist)
     index_dir=strfind(path,'/');
     path_temp=path(1:index_dir(end)-1);
     save([path_temp '/experience_order/' name '.mat'],'surface_EXP','volume_EXP','speed_EXP');
- vvv
 end
